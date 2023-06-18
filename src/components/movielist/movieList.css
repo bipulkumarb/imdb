@@ -12,3 +12,23 @@ margin:  2.5rem;
     flex-wrap: wrap ;
     justify-content: center;
 }
+
+
+@media(max-width:718px) {
+    .movie__list {
+        padding: 5px;
+    }
+}
+
+@media(max-width:622px) {
+    .movie__list {
+        padding: 5px;
+    }
+}
+
+@media(max-width:491px) {
+    .movie__list {
+        padding: 5px;
+    }
+}
+

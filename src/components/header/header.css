@@ -31,3 +31,20 @@ a > span:hover {
 .user__avatar {
     font-size: 2rem;
 }
+
+@media(max-width:503px) {
+    .header {
+        margin: 5px;
+        padding: .5rem 0;
+        align-items: center;
+        display: flex;
+        justify-content:space-between;
+    }
+
+    a > span{
+        margin: 0 10px;
+        font-size: 1.3rem;
+        cursor: pointer;
+        color: white;
+    }
+}
