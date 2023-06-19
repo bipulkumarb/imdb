@@ -19,7 +19,7 @@
 
 .movie__detail {
     align-items: center;
-    width: 75%;
+    width: 80%;
     display: flex;
     position: relative;
     bottom: 225px;
@@ -145,6 +145,77 @@
 }
 
 
-@media(max-width:718px) {
+@media(max-width: 1027px) {
+    .movie__detail {
+        width: 80%;
+        bottom: 225px;
+    }
+
+    .movie__intro {
+        width: 85%;
+    }
+}
+
+@media(max-width: 937px) {
+    .movie__detail {
+        width: 80%;
+        bottom: 225px;
+    }
+
+    .movie__intro {
+        width: 90%;
+    }
+
+    .movie__genre {
+        border: 0px;
+    }
     
+}
+
+@media(max-width: 700px) {
+    .movie__detail {
+        width: 90%;
+        bottom: 225px;
+    }
+
+    .movie__intro {
+        width: 90%;
+    }
+}
+
+@media(max-width: 650px){
+    .movie {
+        width: 110%;
+    }
+}
+
+
+@media(max-width: 585px){
+    .movie {
+        width: 125%;
+    }
+}
+
+@media(max-width: 520px){
+    .movie {
+        width: 150%;
+    }
+}
+
+@media(max-width: 430px){
+    .movie {
+        width: 200%;
+    }
+}
+
+@media(max-width: 330px){
+    .movie {
+        width: 250%;
+    }
+}
+
+@media(max-width: 260px){
+    .movie {
+        width: 300%;
+    }
 }
